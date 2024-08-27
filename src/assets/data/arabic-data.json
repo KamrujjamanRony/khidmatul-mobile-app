@@ -1,0 +1,848 @@
+{
+  "fortyDorud" : [
+    {
+      "id": 1,
+      "arabic": "اَللّٰهُمَّ صَلِّ عَلٰى مُحَمَّدٍ وَّ  عَلٰۤی اَلِ مُحَمَّدٍ وَّ اَنْزِ لْهُ الْمَتْعَدَ الْمُتَرَّ بَ عِنْدَكَ ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": "assets/audio/Dua_Abu_Darda.mp3"
+    },
+    {
+      "id": 2,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": "assets/audio/FortyDorood/40-Durood-2.mp3"
+    },
+    {
+      "id": 3,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 4,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 5,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 6,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 7,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 8,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 9,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 10,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 11,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 12,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 13,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 14,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 15,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 16,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 17,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 18,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 19,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 20,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 21,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 22,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 23,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 24,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 25,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 26,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 27,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 28,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 29,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 30,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 31,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 32,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 33,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 34,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 35,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 36,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 37,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 38,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 39,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 40,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    }
+  ],
+  "fortyRabbanaDowa" : [
+    {
+      "id": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": "assets/audio/Dua_Abu_Darda.mp3"
+    },
+    {
+      "id": 2,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": "assets/audio/FortyDorood/40-Durood-2.mp3"
+    },
+    {
+      "id": 3,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 4,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 5,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 6,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 7,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 8,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 9,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 10,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 11,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 12,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 13,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 14,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 15,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 16,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 17,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 18,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 19,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 20,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 21,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 22,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 23,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 24,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 25,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 26,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 27,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 28,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 29,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 30,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 31,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 32,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 33,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 34,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 35,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 36,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 37,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 38,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 39,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 40,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    }
+  ],
+  "monjil" : [
+    {
+      "id": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": "assets/audio/Dua_Abu_Darda.mp3"
+    },
+    {
+      "id": 2,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": "assets/audio/FortyDorood/40-Durood-2.mp3"
+    },
+    {
+      "id": 3,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 4,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 5,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 6,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 7,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 8,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 9,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 10,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 11,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 12,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 13,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 14,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 15,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 16,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 17,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 18,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 19,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 20,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 21,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 22,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 23,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 24,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 25,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 26,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 27,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 28,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 29,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 30,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 31,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 32,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 33,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 34,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 35,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 36,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 37,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 38,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 39,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    },
+    {
+      "id": 40,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "bangla_meaning": "",
+      "bangla_explanation": "",
+      "audio": ""
+    }
+  ]
+}

@@ -2,6 +2,10 @@
   <app-net-status></app-net-status>
 } @else {
 <section class="w-full lg:container mx-auto p-2 md:p-5">
+  <div class="flex justify-between items-center px-2 pb-2">
+      <h1 class="text-2xl font-bold text-green-800">উত্তরাধিকার সম্পত্তি বন্টন</h1>
+      <app-custom-button link="/" [isBack]="true"></app-custom-button>
+  </div>
   <form #form="ngForm" (ngSubmit)="onFormSubmit()">
     <!-- Asset Description -->
     <div

@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 
 @Component({
   selector: 'app-doyaye-abu-darda-ra',
   standalone: true,
-  imports: [],
+  imports: [CustomButtonComponent],
   templateUrl: './doyaye-abu-darda-ra.component.html',
   styleUrl: './doyaye-abu-darda-ra.component.css'
 })

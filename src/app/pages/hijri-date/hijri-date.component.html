@@ -2,8 +2,12 @@
   <app-net-status></app-net-status>
 } @else {
 @if (hijriDate) {
-  <section class="max-w-md md:max-w-xl lg:max-w-4xl mx-auto py-10">
+  <section class="max-w-md md:max-w-xl lg:max-w-4xl mx-auto py-5">
     <div class="mx-1 md:mx-2">
+      <div class="flex justify-between items-center px-2">
+          <h1 class="text-2xl font-bold text-green-800">হিজরী তারিখ</h1>
+          <app-custom-button link="/" [isBack]="true"></app-custom-button>
+      </div>
   
     <div
       class="mt-4 bg-green-500 text-white w-full py-5 text-xl md:text-2xl font-normal md:font-bold rounded-md flex flex-col items-center justify-center"
@@ -49,7 +53,8 @@
     </div>
       
   </section>
-} @else {
+} 
+@else {
   <app-loading></app-loading>
 }
 }

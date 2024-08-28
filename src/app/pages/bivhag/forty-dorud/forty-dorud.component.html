@@ -1,9 +1,13 @@
-<div class="w-full h-full pb-10 bg-gradient-to-r from-green-400 to-green-700">
-  <h1
-    class="text-3xl md:text-4xl lg:text-7xl text-white text-center font-bold py-5"
-  >
-    চল্লিশ দরুদ ও সালাম
-  </h1>
+<div class="w-full h-full pb-10 bg-gradient-to-l from-green-500 to-green-700">
+  <div class="flex justify-between items-center mx-2">
+    <h1
+      class="text-2xl md:text-4xl lg:text-7xl text-white text-center font-bold py-5"
+    >
+      চল্লিশ দরুদ ও সালাম
+    </h1>
+    <app-custom-button link="/amol" [isBack]="true"></app-custom-button>
+  </div>
+
   <div class="flex justify-end max-w-7xl mx-auto">
     <!-- feature Inputs -->
     <div class="px-2">
@@ -40,7 +44,7 @@
   <div class="max-w-7xl mx-auto">
     @for (data of arabicLanguage; track $index;) {
     <app-arabic-card
-      [index] = "$index"
+      [index]="$index"
       [data]="data"
       [isPlay]="isPlay[$index]"
       [selectedArabic]="selectedArabic"

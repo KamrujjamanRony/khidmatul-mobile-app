@@ -13,5 +13,6 @@ export class CustomButtonComponent {
   @Input() title: any;
   @Input() link: any;
   @Input() isSmall: boolean = false;
+  @Input() isBack: boolean = false;
 
 }

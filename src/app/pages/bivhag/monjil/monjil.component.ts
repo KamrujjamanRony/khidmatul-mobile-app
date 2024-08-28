@@ -1,11 +1,12 @@
 import { Component, inject } from '@angular/core';
 import { ArabicCardComponent } from '../../../components/shared/arabic-card/arabic-card.component';
 import { JsonDataService } from '../../../features/services/json-data.service';
+import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 
 @Component({
   selector: 'app-monjil',
   standalone: true,
-  imports: [ArabicCardComponent],
+  imports: [ArabicCardComponent, CustomButtonComponent],
   templateUrl: './monjil.component.html',
   styleUrl: './monjil.component.css'
 })

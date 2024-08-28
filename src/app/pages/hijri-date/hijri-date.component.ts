@@ -13,13 +13,14 @@ import { HijriDateAdjService } from '../../features/services/hijri-date-adj.serv
 import { LoadingComponent } from '../../components/shared/loading/loading.component';
 import { NetStatusComponent } from '../../components/shared/net-status/net-status.component';
 import { NetworkStatusService } from '../../features/services/network-status.service';
+import { CustomButtonComponent } from '../../components/shared/custom-button/custom-button.component';
 
 @Component({
   selector: 'app-hijri-date',
   standalone: true,
   templateUrl: './hijri-date.component.html',
   styleUrl: './hijri-date.component.css',
-  imports: [CommonModule, FormsModule, BengaliNumberPipe, LoadingComponent, NetStatusComponent]
+  imports: [CommonModule, FormsModule, BengaliNumberPipe, LoadingComponent, NetStatusComponent, CustomButtonComponent]
 })
 export class HijriDateComponent {
   HijriDateAdjService = inject(HijriDateAdjService);

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-loading',
@@ -8,5 +8,18 @@ import { Component } from '@angular/core';
   styleUrl: './loading.component.css'
 })
 export class LoadingComponent {
+  isOffline = false;
+
+  ngOnInit(): void {
+    // this.isOffline = navigator.onLine? false : true;
+    setTimeout(() => {
+      this.isOffline = true;
+      console.log(this.isOffline);
+    }, 35000);
+  }
+
+  onReload(){
+    window.location.reload();
+  }
 
 }

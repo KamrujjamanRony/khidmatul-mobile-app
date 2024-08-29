@@ -2,11 +2,13 @@ import { Component } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { environment } from '../../../environments/environments';
 import { CustomButtonComponent } from '../../components/shared/custom-button/custom-button.component';
+import { ScrollComponent } from "../../components/scroll/scroll.component";
+import { HeadingTextComponent } from "../../components/shared/heading-text/heading-text.component";
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [CustomButtonComponent],
+  imports: [CustomButtonComponent, ScrollComponent, HeadingTextComponent],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })

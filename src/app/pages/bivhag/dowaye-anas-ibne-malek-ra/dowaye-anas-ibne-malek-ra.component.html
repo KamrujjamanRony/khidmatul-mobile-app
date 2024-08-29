@@ -1,32 +1,20 @@
 <div
-  class="w-full h-full min-h-[80vh] pb-10 bg-gradient-to-l from-green-500 to-green-700"
+  class="w-full h-full min-h-[80vh] pb-5 bg-gradient-to-l from-green-500 to-green-700"
 >
-<div class="flex justify-between items-center mx-2">
-  <h1
-    class="text-2xl md:text-4xl lg:text-7xl text-white text-center font-bold py-5"
-  >
-  দোয়ায়ে আনাস ইবনে মালেক (রাঃ)
-  </h1>
-  <app-custom-button link="/amol" [isBack]="true"></app-custom-button>
-</div>
+<app-heading-text title="দোয়ায়ে আনাস ইবনে মালেক (রাঃ)" link="/amol" ></app-heading-text>
 
   <div class="max-w-7xl mx-auto">
-    <div
-      class="collapse bg-gradient-to-t from-slate-700 to-gray-900 my-2 text-white"
-    >
-      <input type="radio" name="arabic" />
-      <div
-        class="collapse-title text-3xl quran-text !font-thin mt-2 text-right leading-loose"
-      >
-        اَللّٰهُمَّ َ اَنْتَ رَبِّيْ لَا اِلٰهَ اِلَّا اَنْتَ عَلَيْكَ تَوَ
-        كَّلْتُ وَاَنْتَ رَبُّ الْعَرْشِ الْكَرِيْمِ مَا شَاءَ اللهُ كَانَ وَمَا
-        لَمْ يَشَأْ لَمْ يَكُنْ وَلَا حَوْلَ وَلَا قُوَّة َ اِلَّا بِاللهِ
-        الْعَلِيِّ الْعَظِيْمِ اَعْلَمُ اَنَّ اللهَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ
-        وَأَنَّ اللهَ قَدْ اَحَاطَ بِكُلِّ شَيْءٍ عِلْمًا. اَللّٰهُمَّ اِنِّيْ
-        اَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِيْ وَمِنْ شَرِّ كُلِّ دَآبَّةٍ اَنْتَ
-        اٰخِذٌ بِۢنَا صِيَتِهَا اِنَّ رَبِّيْ عَلَى صِرَاطٍ مُّسْتَقِيْمٍ
-      </div>
-    </div>
+    <app-arabic-card
+      index="1"
+      [data]="arabic"
+      [isPlay]="isPlay[1]"
+      [selectedArabic]="selectedArabic"
+      [selectedBangla]="selectedBangla"
+      [selectedDescribe]="selectedDescribe"
+      [isExpanded]="expandedIndex === 1"
+      [isHidePlay]="true"
+      (expand)="handleExpand(1)"
+    ></app-arabic-card>
 
     <div class="flex justify-end max-w-7xl mx-auto">
       @if (selectedDescribe) {
@@ -179,7 +167,7 @@
       আমলের দলিল
     </h1>
     <div
-      class="bg-gradient-to-t from-slate-700 to-gray-900 my-2 text-white rounded-2xl"
+      class="bg-gradient-to-l from-slate-700 to-black my-2 text-white rounded-2xl"
     >
       <div class="collapse-title text-xl mt-2 pl-10">
         <p class="text-justify">
@@ -229,5 +217,8 @@
       </div>
     </div>
   </div>
-</div>
 
+  <div class="flex justify-center items-center mt-5">
+    <app-custom-button link="/amol" [isBack]="true"></app-custom-button>
+  </div>
+</div>

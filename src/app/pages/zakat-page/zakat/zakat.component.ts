@@ -6,13 +6,14 @@ import { BanglaPipe } from "../../../features/pipe/bangla.pipe";
 import { LoadingComponent } from '../../../components/shared/loading/loading.component';
 import { NetworkStatusService } from '../../../features/services/network-status.service';
 import { NetStatusComponent } from '../../../components/shared/net-status/net-status.component';
+import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 
 @Component({
   selector: 'app-zakat',
   standalone: true,
   templateUrl: './zakat.component.html',
   styleUrl: './zakat.component.css',
-  imports: [FormsModule, BengaliDatePipe, BanglaPipe, LoadingComponent, NetStatusComponent]
+  imports: [FormsModule, BengaliDatePipe, BanglaPipe, LoadingComponent, NetStatusComponent, CustomButtonComponent]
 })
 export class ZakatComponent {
   forayez: any;

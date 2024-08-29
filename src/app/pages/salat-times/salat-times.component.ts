@@ -5,13 +5,14 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ScrollComponent } from "../../components/scroll/scroll.component";
 import { BengaliNumberPipe } from "../../features/pipe/bengali-number.pipe";
+import { RouterLink } from '@angular/router';
 
 @Component({
     selector: 'app-salat-times',
     standalone: true,
     templateUrl: './salat-times.component.html',
     styleUrl: './salat-times.component.css',
-    imports: [CommonModule, FormsModule, ScrollComponent, BengaliNumberPipe]
+    imports: [CommonModule, FormsModule, ScrollComponent, BengaliNumberPipe, RouterLink]
 })
 export class SalatTimesComponent {
   model: any = {
@@ -131,6 +132,7 @@ export class SalatTimesComponent {
       .then((response) => {
         if (response.data.display_name) {
           this.locationName = response.data;
+          console.log(this.locationName)
         } else {
           this.locationName = 'Location not found';
         }

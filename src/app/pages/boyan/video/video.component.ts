@@ -6,13 +6,15 @@ import { CommonModule } from '@angular/common';
 import { CoverComponent } from '../../../components/shared/cover/cover.component';
 import { NetworkStatusService } from '../../../features/services/network-status.service';
 import { NetStatusComponent } from '../../../components/shared/net-status/net-status.component';
+import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
+import { ScrollComponent } from "../../../components/scroll/scroll.component";
 
 @Component({
     selector: 'app-video',
     standalone: true,
     templateUrl: './video.component.html',
     styleUrl: './video.component.css',
-    imports: [VideoCardComponent, CoverComponent, CommonModule, NetStatusComponent]
+    imports: [VideoCardComponent, CoverComponent, CommonModule, NetStatusComponent, CustomButtonComponent, ScrollComponent]
 })
 export class VideoComponent {
   boyanService = inject(BoyanService);

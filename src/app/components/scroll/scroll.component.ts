@@ -21,11 +21,11 @@ export class ScrollComponent {
     const myButton = document.getElementById("btn-back-to-top");
 
     if (myButton) {
-      // When the user scrolls down 20px from the top of the document, show the button
+      // When the user scrolls down 1500px from the top of the document, show the button
       const scrollFunction = () => {
         if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
+          document.body.scrollTop > 1500 ||
+          document.documentElement.scrollTop > 1500
         ) {
           myButton.classList.remove("hidden");
         } else {

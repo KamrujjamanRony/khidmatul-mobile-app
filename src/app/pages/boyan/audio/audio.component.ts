@@ -9,13 +9,15 @@ import { environment } from '../../../../environments/environments';
 import { FormsModule } from '@angular/forms';
 import { NetStatusComponent } from '../../../components/shared/net-status/net-status.component';
 import { NetworkStatusService } from '../../../features/services/network-status.service';
+import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
+import { ScrollComponent } from "../../../components/scroll/scroll.component";
 
 @Component({
     selector: 'app-audio',
     standalone: true,
     templateUrl: './audio.component.html',
     styleUrl: './audio.component.css',
-    imports: [AudioCardComponent, CoverComponent, CommonModule, FormsModule, NetStatusComponent]
+    imports: [AudioCardComponent, CoverComponent, CommonModule, FormsModule, NetStatusComponent, CustomButtonComponent, ScrollComponent]
 })
 export class AudioComponent {
   boyanService = inject(BoyanService);
@@ -35,7 +37,6 @@ export class AudioComponent {
     this.networkStatusService.onlineStatus$.subscribe(
       (status: boolean) => this.isOnline = status
     );
-    console.log(this.isOnline)
     this.paramsSubscription = this.route.paramMap.subscribe({
       next: (params) => {
         const type = params.get('type');

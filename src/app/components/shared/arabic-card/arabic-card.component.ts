@@ -16,6 +16,7 @@ export class ArabicCardComponent {
   @Input() selectedBangla: boolean = false;
   @Input() selectedDescribe: boolean = false;
   @Input() isExpanded: boolean = false;
+  @Input() isHidePlay: boolean = false;
 
   @Output() expand = new EventEmitter<number>();
 

@@ -2,11 +2,8 @@
   <app-net-status></app-net-status>
 } @else {
 <section class="my-2">
-  <div class="py-5">
-    <div class="flex justify-between px-2">
-        <h1 class="text-2xl lg:text-5xl font-bold text-green-800">যাকাত ক্যালকুলেটর</h1>
-        <app-custom-button link="/zakat-menu" [isBack]="true"></app-custom-button>
-    </div>
+  <div>
+    <app-heading-text Construction="যাকাত ক্যালকুলেটর" link="/zakat-menu" color="green"></app-heading-text>
     <h1 class="text-center text-2xl lg:text-5xl text-primary mb-2">
       যাকাত ক্যালকুলেটর
     </h1>
@@ -529,10 +526,14 @@
     </div>
   </div>
 
-  <div class="flex justify-center">
-    <button class="btn btn-success mb-5 text-white" (click)="generatePDF()">
+  <div class="flex justify-around items-center">
+    <button class="btn btn-success btn-sm text-white" (click)="generatePDF()">
       Download PDF
     </button>
+
+    <div class="flex justify-center items-center py-5">
+      <app-custom-button link="/zakat-menu" [isBack]="true"></app-custom-button>
+    </div>
   </div>
 </section>
 }

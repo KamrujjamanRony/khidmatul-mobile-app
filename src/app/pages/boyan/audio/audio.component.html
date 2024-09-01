@@ -36,10 +36,7 @@
           </div>
     } @else {
         <section>
-          <div class="flex justify-between mt-2 mx-2">
-              <h1 class="text-2xl font-bold text-green-800">{{title}}</h1>
-              <app-custom-button link="/boyan-menu" [isBack]="true"></app-custom-button>
-          </div>
+          <app-heading-text [Construction]="title" link="/boyan-menu" color="green"></app-heading-text>
          
             
             <div class="mt-4 mx-4">
@@ -101,14 +98,15 @@
               </div>
             }
             </div>
+
+            <div class="flex justify-center items-center mt-5">
+              <app-custom-button link="/boyan-menu" [isBack]="true"></app-custom-button>
+            </div>
         </section>
     }
 } @else {
     <section>
-      <div class="flex justify-between mt-2 mx-2">
-          <h1 class="text-2xl font-bold text-green-800">{{title}}</h1>
-          <app-custom-button link="/boyan-menu" [isBack]="true"></app-custom-button>
-      </div>
+      <app-heading-text [Construction]="title" link="/boyan-menu" color="green"></app-heading-text>
      
       
         <div class="mt-4 mx-4">
@@ -171,8 +169,10 @@
           </div>
         }
         </div>
+
+        <div class="flex justify-center items-center mt-5">
+          <app-custom-button link="/boyan-menu" [isBack]="true"></app-custom-button>
+        </div>
     </section>
 }
 }
-
-<app-scroll />

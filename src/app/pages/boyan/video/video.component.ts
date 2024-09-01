@@ -8,13 +8,14 @@ import { NetworkStatusService } from '../../../features/services/network-status.
 import { NetStatusComponent } from '../../../components/shared/net-status/net-status.component';
 import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 import { ScrollComponent } from "../../../components/scroll/scroll.component";
+import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
 
 @Component({
     selector: 'app-video',
     standalone: true,
     templateUrl: './video.component.html',
     styleUrl: './video.component.css',
-    imports: [VideoCardComponent, CoverComponent, CommonModule, NetStatusComponent, CustomButtonComponent, ScrollComponent]
+    imports: [VideoCardComponent, CoverComponent, CommonModule, NetStatusComponent, CustomButtonComponent, ScrollComponent, HeadingTextComponent]
 })
 export class VideoComponent {
   boyanService = inject(BoyanService);

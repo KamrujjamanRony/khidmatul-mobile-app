@@ -2,13 +2,14 @@ import { Component } from '@angular/core';
 import { Card1Component } from "../../../components/shared/text/card1";
 import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 import { ScrollComponent } from "../../../components/scroll/scroll.component";
+import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
 
 @Component({
     selector: 'app-shajara',
     standalone: true,
     templateUrl: './shajara.component.html',
     styleUrl: './shajara.component.css',
-    imports: [Card1Component, CustomButtonComponent, ScrollComponent]
+    imports: [Card1Component, CustomButtonComponent, ScrollComponent, HeadingTextComponent]
 })
 export class ShajaraComponent {
     download(): void {

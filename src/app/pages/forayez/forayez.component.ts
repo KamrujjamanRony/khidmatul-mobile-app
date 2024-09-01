@@ -8,12 +8,13 @@ import { BanglaPipe } from '../../features/pipe/bangla.pipe';
 import { NetStatusComponent } from '../../components/shared/net-status/net-status.component';
 import { NetworkStatusService } from '../../features/services/network-status.service';
 import { CustomButtonComponent } from '../../components/shared/custom-button/custom-button.component';
+import { HeadingTextComponent } from "../../components/shared/heading-text/heading-text.component";
 @Component({
     selector: 'app-forayez',
     standalone: true,
     templateUrl: './forayez.component.html',
     styleUrl: './forayez.component.css',
-    imports: [FormsModule, CommonModule, ConfirmModalComponent, BanglaPipe, NetStatusComponent, CustomButtonComponent]
+    imports: [FormsModule, CommonModule, ConfirmModalComponent, BanglaPipe, NetStatusComponent, CustomButtonComponent, HeadingTextComponent]
 })
 export class ForayezComponent {
     forayezService = inject(ForayezService);

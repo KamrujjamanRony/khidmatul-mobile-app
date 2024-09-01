@@ -2,30 +2,27 @@
   <app-net-status></app-net-status>
 } @else {
 <section class="w-full lg:container mx-auto p-2 md:p-5">
-  <div class="flex justify-between items-center px-2 pb-2">
-      <h1 class="text-2xl font-bold text-green-800">উত্তরাধিকার সম্পত্তি বন্টন</h1>
-      <app-custom-button link="/" [isBack]="true"></app-custom-button>
-  </div>
+  <app-heading-text Construction="উত্তরাধিকার সম্পত্তি বন্টন" link="/" color="green"></app-heading-text>
   <form #form="ngForm" (ngSubmit)="onFormSubmit()">
     <!-- Asset Description -->
     <div
       class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3 lg:gap-5 px-2 pb-2 pt-8 border border-green-600 rounded-md relative mt-2"
     >
       <h1
-        class="absolute -top-3 md:-top-4 left-5 md:left-7 lg:left-10 text-xl md:text-2xl font-bold text-green-600 bg-white px-2"
+        class="absolute -top-3 md:-top-4 left-5 md:left-7 lg:left-10 text-xl md:text-2xl font-bold text-green-600 bg-cyan-100 px-2"
       >
         সম্পদের বিবরণ
       </h1>
       <!-- tk -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
         >
           @if (asset == "1") { টাকা } @if (asset == "2") { শতাংশ } @if (asset ==
           "3") { গ্রাম }
         </span>
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="asset"
         >
         <svg fill="#000000" width="64px" height="64px" viewBox="0 0 24 24" id="taka-square-2" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color h-4 w-4 opacity-70"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect id="primary" x="2" y="2" width="20" height="20" rx="2" style="fill: #000000;"></rect><path id="secondary" d="M16,11a1,1,0,0,0-1,1v2a2,2,0,0,1-4,0V12h1a1,1,0,0,0,0-2H11V9A3,3,0,0,0,8,6,1,1,0,0,0,8,8,1,1,0,0,1,9,9v1H8a1,1,0,0,0,0,2H9v2a4,4,0,0,0,8,0V12A1,1,0,0,0,16,11Z" style="fill: #ffffff;"></path></g></svg>
@@ -34,7 +31,7 @@
             name="tk"
             type="number"
             [(ngModel)]="model.tk"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="পরিমাণ"
           />
         </label>
@@ -95,18 +92,18 @@
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3 lg:gap-5 px-2 pb-2 pt-8 border border-green-600 rounded-md relative mt-5"
     >
       <h1
-        class="absolute -top-3 md:-top-4 left-5 md:left-7 lg:left-10 text-xl md:text-2xl font-bold text-green-600 bg-white px-2"
+        class="absolute -top-3 md:-top-4 left-5 md:left-7 lg:left-10 text-xl md:text-2xl font-bold text-green-600 bg-cyan-100 px-2"
       >
       জীবিত আত্মীয়-স্বজনের তালিকা
       </h1>
       <!-- son -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >পুত্র</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="son"
         >
           <svg
@@ -124,19 +121,19 @@
             name="son"
             type="number"
             [(ngModel)]="model.son"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="son"
           />
         </label>
       </div>
       <!-- daughter -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >কন্যা</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="daughter"
         >
           <svg
@@ -156,20 +153,20 @@
             name="daughter"
             type="number"
             [(ngModel)]="model.daughter"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="daughter"
           />
         </label>
       </div>
       <!-- husband -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
         >
           স্বামী
         </span>
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="husband"
         >
           <svg
@@ -188,7 +185,7 @@
             type="number"
             [(ngModel)]="model.husband"
             #husband="ngModel"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="husband"
             (ngModelChange)="onHusbandChange()"
           />
@@ -199,14 +196,14 @@
       </div>
 
       <!-- wife -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
         >
           স্ত্রী
         </span>
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="wife"
         >
           <svg
@@ -227,7 +224,7 @@
             type="number"
             [(ngModel)]="model.wife"
             #wife="ngModel"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="wife"
             (ngModelChange)="onWifeChange()"
           />
@@ -238,13 +235,13 @@
       </div>
 
       <!-- father -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >পিতা</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="father"
         >
           <svg
@@ -262,7 +259,7 @@
             name="father"
             type="number"
             [(ngModel)]="model.father"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="father"
             (ngModelChange)="onFatherChange()"
           />
@@ -272,13 +269,13 @@
         }
       </div>
       <!-- mother -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >মাতা</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="mother"
         >
           <svg
@@ -298,7 +295,7 @@
             name="mother"
             type="number"
             [(ngModel)]="model.mother"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="mother"
             (ngModelChange)="onMotherChange()"
           />
@@ -308,13 +305,13 @@
         }
       </div>
       <!-- brother -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >ভাই</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="brother"
         >
           <svg
@@ -332,19 +329,19 @@
             name="brother"
             type="number"
             [(ngModel)]="model.brother"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="brother"
           />
         </label>
       </div>
       <!-- sister -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >বোন</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="sister"
         >
           <svg
@@ -364,19 +361,19 @@
             name="sister"
             type="number"
             [(ngModel)]="model.sister"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="sister"
           />
         </label>
       </div>
       <!-- grandfather -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >দাদা</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="grandfather"
         >
           <svg
@@ -394,7 +391,7 @@
             name="grandfather"
             type="number"
             [(ngModel)]="model.grandfather"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="grandfather"
             (ngModelChange)="onGrandfatherChange()"
           />
@@ -404,13 +401,13 @@
         }
       </div>
       <!-- grandmother -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >দাদী</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="grandmother"
         >
           <svg
@@ -430,19 +427,19 @@
             name="grandmother"
             type="number"
             [(ngModel)]="model.grandmother"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="grandmother"
           />
         </label>
       </div>
       <!-- grandnanny -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >নানী</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="grandnanny"
         >
           <svg
@@ -462,19 +459,19 @@
             name="grandnanny"
             type="number"
             [(ngModel)]="model.grandnanny"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="grandnanny"
           />
         </label>
       </div>
       <!-- uncle -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >চাচা</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="uncle"
         >
           <svg
@@ -492,19 +489,19 @@
             name="uncle"
             type="number"
             [(ngModel)]="model.uncle"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="uncle"
           />
         </label>
       </div>
       <!-- cousin -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >চাচাতো ভাই</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="cousin"
         >
           <svg
@@ -522,19 +519,19 @@
             name="cousin"
             type="number"
             [(ngModel)]="model.cousin"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="cousin"
           />
         </label>
       </div>
       <!-- BmB -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >বৈমাত্রের ভাই</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="BmB"
         >
           <svg
@@ -552,19 +549,19 @@
             name="BmB"
             type="number"
             [(ngModel)]="model.BmB"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="vaimatreya brother"
           />
         </label>
       </div>
       <!-- BmS -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >বৈমাত্রের বোন</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="BmS"
         >
           <svg
@@ -584,19 +581,19 @@
             name="BmS"
             type="number"
             [(ngModel)]="model.BmS"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="vaimatreya sister"
           />
         </label>
       </div>
       <!-- BpB -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >বৈপিত্রের ভাই</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="BpB"
         >
           <svg
@@ -614,19 +611,19 @@
             name="BpB"
             type="number"
             [(ngModel)]="model.BpB"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="vaipitra's brother"
           />
         </label>
       </div>
       <!-- BpS -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >বৈপিত্রের বোন</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="BpS"
         >
           <svg
@@ -646,19 +643,19 @@
             name="BpS"
             type="number"
             [(ngModel)]="model.BpS"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="vaipitra's sister"
           />
         </label>
       </div>
       <!-- grandson -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >পুত্রের পুত্র (নাতি)</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="grandson"
         >
           <svg
@@ -676,19 +673,19 @@
             name="grandson"
             type="number"
             [(ngModel)]="model.grandson"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="grandson"
           />
         </label>
       </div>
       <!-- granddaughter -->
-      <div class="relative mt-1 bg-white">
+      <div class="relative mt-1 bg-cyan-100">
         <span
-          class="capitalize bg-white tracking-wider absolute -top-3 left-5 px-2 text-green-600"
+          class="capitalize bg-cyan-100 tracking-wider absolute -top-3 left-5 px-2 text-green-600"
           >পুত্রের কন্যা (নাতনী)</span
         >
         <label
-          class="input input-bordered flex items-center gap-2 bg-white"
+          class="input input-bordered flex items-center gap-2 bg-cyan-100"
           for="granddaughter"
         >
           <svg
@@ -708,7 +705,7 @@
             name="granddaughter"
             type="number"
             [(ngModel)]="model.granddaughter"
-            class="grow capitalize w-full bg-white text-black"
+            class="grow capitalize w-full bg-cyan-100 text-black"
             placeholder="granddaughter"
           />
         </label>

@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './heading-text.component.css'
 })
 export class HeadingTextComponent {
-  @Input() title: any;
+  @Input() Construction: any;
   @Input() link: any;
   @Input() color: any;
 

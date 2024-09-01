@@ -3,13 +3,14 @@ import axios from 'axios';
 import { PrayTimesService } from '../../features/services/pray-times.service';
 import { BengaliNumberPipe } from "../../features/pipe/bengali-number.pipe";
 import { RouterLink } from '@angular/router';
+import { FooterComponent } from "../../components/footer/footer.component";
 
 @Component({
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [BengaliNumberPipe, RouterLink]
+    imports: [BengaliNumberPipe, RouterLink, FooterComponent]
 })
 export class HomeComponent {
     model: any = {

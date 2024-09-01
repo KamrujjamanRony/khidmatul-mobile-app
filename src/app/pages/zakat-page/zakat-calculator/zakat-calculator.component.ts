@@ -14,13 +14,14 @@ import { NetStatusComponent } from '../../../components/shared/net-status/net-st
 import { NetworkStatusService } from '../../../features/services/network-status.service';
 import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
+import { FooterComponent } from "../../../components/footer/footer.component";
 
 @Component({
   selector: 'app-zakat-calculator',
   standalone: true,
   templateUrl: './zakat-calculator.component.html',
   styleUrl: './zakat-calculator.component.css',
-  imports: [BanglaPipe, FormsModule, BengaliNumberPipe, CommonModule, BengaliDatePipe, NetStatusComponent, CustomButtonComponent, HeadingTextComponent]
+  imports: [BanglaPipe, FormsModule, BengaliNumberPipe, CommonModule, BengaliDatePipe, NetStatusComponent, CustomButtonComponent, HeadingTextComponent, FooterComponent]
 })
 export class ZakatCalculatorComponent {
   datePipe: DatePipe = new DatePipe('en-US');

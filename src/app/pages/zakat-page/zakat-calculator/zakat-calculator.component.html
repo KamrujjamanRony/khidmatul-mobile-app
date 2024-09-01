@@ -526,14 +526,12 @@
     </div>
   </div>
 
-  <div class="flex justify-around items-center">
+  <div class="flex justify-center items-center">
     <button class="btn btn-success btn-sm text-white" (click)="generatePDF()">
       Download PDF
     </button>
-
-    <div class="flex justify-center items-center py-5">
-      <app-custom-button link="/zakat-menu" [isBack]="true"></app-custom-button>
-    </div>
   </div>
 </section>
 }
+
+<app-footer link="/zakat-menu"></app-footer>

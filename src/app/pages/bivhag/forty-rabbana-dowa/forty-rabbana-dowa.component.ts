@@ -4,11 +4,12 @@ import { JsonDataService } from '../../../features/services/json-data.service';
 import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 import { ScrollComponent } from "../../../components/scroll/scroll.component";
 import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
+import { FooterComponent } from "../../../components/footer/footer.component";
 
 @Component({
   selector: 'app-forty-rabbana-dowa',
   standalone: true,
-  imports: [ArabicCardComponent, CustomButtonComponent, ScrollComponent, HeadingTextComponent],
+  imports: [ArabicCardComponent, CustomButtonComponent, ScrollComponent, HeadingTextComponent, FooterComponent],
   templateUrl: './forty-rabbana-dowa.component.html',
   styleUrl: './forty-rabbana-dowa.component.css'
 })

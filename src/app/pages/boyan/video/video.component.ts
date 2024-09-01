@@ -9,13 +9,14 @@ import { NetStatusComponent } from '../../../components/shared/net-status/net-st
 import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 import { ScrollComponent } from "../../../components/scroll/scroll.component";
 import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
+import { FooterComponent } from "../../../components/footer/footer.component";
 
 @Component({
     selector: 'app-video',
     standalone: true,
     templateUrl: './video.component.html',
     styleUrl: './video.component.css',
-    imports: [VideoCardComponent, CoverComponent, CommonModule, NetStatusComponent, CustomButtonComponent, ScrollComponent, HeadingTextComponent]
+    imports: [VideoCardComponent, CoverComponent, CommonModule, NetStatusComponent, CustomButtonComponent, ScrollComponent, HeadingTextComponent, FooterComponent]
 })
 export class VideoComponent {
   boyanService = inject(BoyanService);

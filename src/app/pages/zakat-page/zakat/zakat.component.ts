@@ -8,13 +8,14 @@ import { NetworkStatusService } from '../../../features/services/network-status.
 import { NetStatusComponent } from '../../../components/shared/net-status/net-status.component';
 import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
+import { FooterComponent } from "../../../components/footer/footer.component";
 
 @Component({
   selector: 'app-zakat',
   standalone: true,
   templateUrl: './zakat.component.html',
   styleUrl: './zakat.component.css',
-  imports: [FormsModule, BengaliDatePipe, BanglaPipe, LoadingComponent, NetStatusComponent, CustomButtonComponent, HeadingTextComponent]
+  imports: [FormsModule, BengaliDatePipe, BanglaPipe, LoadingComponent, NetStatusComponent, CustomButtonComponent, HeadingTextComponent, FooterComponent]
 })
 export class ZakatComponent {
   forayez: any;

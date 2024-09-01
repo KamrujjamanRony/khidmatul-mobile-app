@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { CustomButtonComponent } from "../custom-button/custom-button.component";
 
 @Component({
   selector: 'app-loading',
   standalone: true,
-  imports: [],
+  imports: [CustomButtonComponent],
   templateUrl: './loading.component.html',
   styleUrl: './loading.component.css'
 })

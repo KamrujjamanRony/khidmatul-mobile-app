@@ -6,13 +6,14 @@ import { FormsModule } from '@angular/forms';
 import { ScrollComponent } from "../../components/scroll/scroll.component";
 import { BengaliNumberPipe } from "../../features/pipe/bengali-number.pipe";
 import { RouterLink } from '@angular/router';
+import { FooterComponent } from "../../components/footer/footer.component";
 
 @Component({
     selector: 'app-salat-times',
     standalone: true,
     templateUrl: './salat-times.component.html',
     styleUrl: './salat-times.component.css',
-    imports: [CommonModule, FormsModule, ScrollComponent, BengaliNumberPipe, RouterLink]
+    imports: [CommonModule, FormsModule, ScrollComponent, BengaliNumberPipe, RouterLink, FooterComponent]
 })
 export class SalatTimesComponent {
   model: any = {

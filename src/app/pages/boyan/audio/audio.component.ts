@@ -12,13 +12,14 @@ import { NetworkStatusService } from '../../../features/services/network-status.
 import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 import { ScrollComponent } from "../../../components/scroll/scroll.component";
 import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
+import { FooterComponent } from "../../../components/footer/footer.component";
 
 @Component({
     selector: 'app-audio',
     standalone: true,
     templateUrl: './audio.component.html',
     styleUrl: './audio.component.css',
-    imports: [AudioCardComponent, CoverComponent, CommonModule, FormsModule, NetStatusComponent, CustomButtonComponent, ScrollComponent, HeadingTextComponent]
+    imports: [AudioCardComponent, CoverComponent, CommonModule, FormsModule, NetStatusComponent, CustomButtonComponent, ScrollComponent, HeadingTextComponent, FooterComponent]
 })
 export class AudioComponent {
   boyanService = inject(BoyanService);

@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <h2 class="text-xl md:text-2xl font-bold py-2">{{text}}</h2>
+    <h2 class="text-2xl md:text-3xl font-bold py-2">{{text}}</h2>
   `
 })
 export class Head1Component {

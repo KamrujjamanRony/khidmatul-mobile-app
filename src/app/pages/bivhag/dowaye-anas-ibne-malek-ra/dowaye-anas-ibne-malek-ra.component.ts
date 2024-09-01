@@ -3,11 +3,12 @@ import { CustomButtonComponent } from '../../../components/shared/custom-button/
 import { ScrollComponent } from "../../../components/scroll/scroll.component";
 import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
 import { ArabicCardComponent } from "../../../components/shared/arabic-card/arabic-card.component";
+import { FooterComponent } from "../../../components/footer/footer.component";
 
 @Component({
   selector: 'app-dowaye-anas-ibne-malek-ra',
   standalone: true,
-  imports: [CustomButtonComponent, ScrollComponent, HeadingTextComponent, ArabicCardComponent],
+  imports: [CustomButtonComponent, ScrollComponent, HeadingTextComponent, ArabicCardComponent, FooterComponent],
   templateUrl: './dowaye-anas-ibne-malek-ra.component.html',
   styleUrl: './dowaye-anas-ibne-malek-ra.component.css'
 })

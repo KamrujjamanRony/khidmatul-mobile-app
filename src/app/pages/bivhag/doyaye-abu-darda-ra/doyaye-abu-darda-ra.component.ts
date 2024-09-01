@@ -3,11 +3,12 @@ import { CustomButtonComponent } from '../../../components/shared/custom-button/
 import { ScrollComponent } from "../../../components/scroll/scroll.component";
 import { ArabicCardComponent } from "../../../components/shared/arabic-card/arabic-card.component";
 import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
+import { FooterComponent } from "../../../components/footer/footer.component";
 
 @Component({
   selector: 'app-doyaye-abu-darda-ra',
   standalone: true,
-  imports: [CustomButtonComponent, ScrollComponent, ArabicCardComponent, HeadingTextComponent],
+  imports: [CustomButtonComponent, ScrollComponent, ArabicCardComponent, HeadingTextComponent, FooterComponent],
   templateUrl: './doyaye-abu-darda-ra.component.html',
   styleUrl: './doyaye-abu-darda-ra.component.css'
 })

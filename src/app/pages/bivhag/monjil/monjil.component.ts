@@ -4,11 +4,12 @@ import { JsonDataService } from '../../../features/services/json-data.service';
 import { CustomButtonComponent } from '../../../components/shared/custom-button/custom-button.component';
 import { ScrollComponent } from "../../../components/scroll/scroll.component";
 import { HeadingTextComponent } from "../../../components/shared/heading-text/heading-text.component";
+import { FooterComponent } from "../../../components/footer/footer.component";
 
 @Component({
   selector: 'app-monjil',
   standalone: true,
-  imports: [ArabicCardComponent, CustomButtonComponent, ScrollComponent, HeadingTextComponent],
+  imports: [ArabicCardComponent, CustomButtonComponent, ScrollComponent, HeadingTextComponent, FooterComponent],
   templateUrl: './monjil.component.html',
   styleUrl: './monjil.component.css'
 })
